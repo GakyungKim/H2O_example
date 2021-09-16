@@ -1,4 +1,6 @@
-# H2O_example
+# H2O_example: ABCD Sex Classification using connectome data
+- Written by: Kakyeong Kim (bettybetty3k@gmail.com)
+
 ### H2O overview
 - http://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html
 
