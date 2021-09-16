@@ -1,5 +1,7 @@
 ############### Sex_h2o ###############
+# <ABCD SEX CLASSIFICATION using connectome data>
 # Written by: Kakyeong Kim (bettybetty3k@gmail.com)
+# Data: ABCD connectome data
 #######################################
 
 ### load data
