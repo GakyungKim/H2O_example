@@ -17,10 +17,6 @@ for(i in 1:3){
   test.ct[,fact[i]] <- as.factor(test.ct[,fact[i]])
 }
 
-### execute this code if you want to load the DAI package
-#library(dai)
-#dai.connect(uri = 'http://147.46.167.205:12345', username = 'connectome@snu.ac.kr', password = 'a816115!')
-
 ### execute this code if you want to load the h2o package
 library(h2o)
 h2o.init()
@@ -82,13 +78,6 @@ ggplot(data = rand.roc, aes(x = fpr, y = tpr)) +
         axis.line = element_line(colour = 'black', size = .5))
 
 ### stacked ensemble model
-#didn't work
-#best_glm <- h2o.glm(
-#  x = x, y = y, training_frame = train, family = "binomial",
-#  remove_collinear_columns = TRUE, nfolds = 5, fold_assignment = NULL, 
-#  keep_cross_validation_predictions = TRUE, seed = 1234, max_runtime_secs = 30,
-#  stopping_metric = "AUC")
-
 best_gbm <- h2o.gbm(
   x = x, y = y, training_frame = train, ntrees = 5000,
   learn_rate = 0.01, max_depth = 7, min_rows = 5, sample_rate = 0.8,
