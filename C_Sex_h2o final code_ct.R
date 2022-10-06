@@ -1,6 +1,6 @@
 ############### Sex_h2o ###############
 # <ABCD SEX CLASSIFICATION using connectome data>
-# Written by: Kakyeong Kim (bettybetty3k@gmail.com)
+# Written by: Gakyung Kim (gakyung317@gmail.com)
 # Data: ABCD connectome data
 #######################################
 
